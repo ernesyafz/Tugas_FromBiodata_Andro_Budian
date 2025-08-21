@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary_grey"
+    tools:context=".ResultActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_check_circle"
+                app:tint="@color/primary_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Biodata Tersimpan"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:text="Terima kasih telah melengkapi data."
+                android:textColor="@color/text_dark"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="24dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/tvHasilNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="16dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                tools:text="Nama: John Doe" />
+
+            <TextView
+                android:id="@+id/tvHasilTanggalLahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:drawableStart="@drawable/ic_calendar"
+                android:drawablePadding="16dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                tools:text="Tanggal Lahir: 01 Januari 2000" />
+
+            <TextView
+                android:id="@+id/tvHasilJenisKelamin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:drawableStart="@drawable/ic_gender"
+                android:drawablePadding="16dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                tools:text="Jenis Kelamin: Laki-laki" />
+
+            <TextView
+                android:id="@+id/tvHasilAgama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:drawableStart="@drawable/ic_religion"
+                android:drawablePadding="16dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                tools:text="Agama: Islam" />
+
+            <TextView
+                android:id="@+id/tvHasilAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_home"
+                android:drawablePadding="16dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                tools:text="Alamat: Jl. Pahlawan No. 123" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

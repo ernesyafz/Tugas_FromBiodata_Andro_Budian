@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AplikasiBiodata</string>
+
+    <string-array name="agama_array">
+        <item>Islam</item>
+        <item>Kristen Protestan</item>
+        <item>Kristen Katolik</item>
+        <item>Hindu</item>
+        <item>Buddha</item>
+        <item>Konghucu</item>
+    </string-array>
+
+</resources>
