@@ -13,6 +13,16 @@ Repository ini adalah tempat utama (ibarat "folder kelas") untuk mengumpulkan se
 Masing-masing siswa nanti akan membuat folder dengan namanya sendiri, lalu mengumpulkan tugas di situ.
 
 ---
+## 📝 Aturan Pengumpulan
+- **Jangan hapus atau edit folder teman.**  
+(Kalau tidak sengaja mengubah, PR kamu bisa ditolak.)
+- Simpan tugas hanya di folder milikmu.
+- Gunakan format folder sesuai aturan:  
+`NamaLengkap_Kelas`
+- Commit message usahakan jelas, misalnya:  
+*"Menambahkan tugas pertemuan 1 - Salman Dwiki S"*
+
+---
 
 ## Langkah Mengumpulkan Tugas
 
@@ -53,12 +63,5 @@ Pull Request artinya kamu minta supaya tugasmu dimasukkan ke repository utama ke
 - **head repository** = akun GitHub kamu(misalnya`username-kamu/Tugas_Android_budian`)
 4. Klik **Create Pull Request**.
 
-## 📝 Aturan Pengumpulan
-- **Jangan hapus atau edit folder teman.**  
-(Kalau tidak sengaja mengubah, PR kamu bisa ditolak.)
-- Simpan tugas hanya di folder milikmu.
-- Gunakan format folder sesuai aturan:  
-`NamaLengkap_Kelas`
-- Commit message usahakan jelas, misalnya:  
-*"Menambahkan tugas pertemuan 1 - Salman Dwiki S"*
+
   
