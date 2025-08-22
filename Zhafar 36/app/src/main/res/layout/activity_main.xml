@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input Nama -->
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/masukkan_nama"
+        android:inputType="textPersonName"
+        android:autofillHints="name" />
+
+    <!-- Input Alamat -->
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/masukkan_alamat"
+        android:inputType="textPostalAddress"
+        android:autofillHints="postalAddress" />
+
+    <!-- Tombol Simpan -->
+    <Button
+        android:id="@+id/simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/simpan" />
+
+    <!-- TextView Hasil -->
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/hasil_muncul" />
+
+</LinearLayout>
