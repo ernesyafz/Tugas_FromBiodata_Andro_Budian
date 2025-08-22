@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Form Biodata</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="masukkan_alamat">Masukkan Alamat</string>
+    <string name="simpan">Simpan</string>
+    <string name="hasil_muncul">Hasil akan muncul di sini</string>
+</resources>
