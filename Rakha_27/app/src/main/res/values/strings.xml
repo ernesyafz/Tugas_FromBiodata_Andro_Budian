@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Rakha_27</string>
+    <string-array name="religion">
+        <item>Select Religion</item>
+        <item>Islam</item>
+        <item>Christian</item>
+        <item>Catholic</item>
+        <item>Hindu</item>
+        <item>Buddha</item>
+        <item>Others</item>
+    </string-array>>
+</resources>
