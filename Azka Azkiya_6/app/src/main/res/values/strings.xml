@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BiodataApp</string>
+
+    <string-array name="agama_items">
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Katolik</item>
+        <item>Hindu</item>
+        <item>Budha</item>
+        <item>Konghucu</item>
+        <item>Lainnya</item>
+    </string-array>
+</resources>

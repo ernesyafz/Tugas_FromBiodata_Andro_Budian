@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.biodata">
+
+    <!-- Permission untuk akses gambar (Android 13/14) -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Form Biodata"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Activity utama -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">   <!-- WAJIB untuk Activity dengan intent-filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity hasil -->
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" /> <!-- Tidak ada intent-filter, jadi false -->
+    </application>
+
+</manifest>
